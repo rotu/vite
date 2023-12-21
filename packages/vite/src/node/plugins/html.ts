@@ -140,6 +140,9 @@ export const assetAttrsConfig: Record<string, string[]> = {
   img: ['src', 'srcset'],
   image: ['xlink:href', 'href'],
   use: ['xlink:href', 'href'],
+  track: ['src'],
+  object: ['data'],
+  embed: ['src'],
 }
 
 // Some `<link rel>` elements should not be inlined in build. Excluding:
